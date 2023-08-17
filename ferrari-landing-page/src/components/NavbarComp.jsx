@@ -1,30 +1,27 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import './NavbarCSS.css'
+import React from "react";
+import './NavbarCSS.css';
 
 function NavbarComp() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home">Ferrari</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Merch</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Accessories
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Contact Us</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className="containerClass">
+      <h1>Ferrari</h1>
+      <div className="different-options">
+        <div className="home text">Home</div>
+        <div className="about-us text">About Us</div>
+        <div className="contact-us text">Contact Us</div>
+        <div className="more-options">
+          <div className="more-options-text">
+            More Options
+          </div>
+          <select name="More-Options" placeholder="More Options">
+            <option value="1">Accessories</option>
+            <option value="2">Instagram</option>
+            <option value="3">Twitter</option>
+            <option value="4">Facebook</option>
+          </select> 
+        </div>
+      </div>
+    </div>
   );
 }
 
