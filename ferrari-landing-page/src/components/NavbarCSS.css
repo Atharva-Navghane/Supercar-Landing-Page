@@ -1,0 +1,14 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    gap: 0px;
+
+}
+
+.navi
+{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
