@@ -1,4 +1,4 @@
-.CarCollectionText
+.CarCollectionText, .FoundersCollectionText
 {
     text-decoration: underline;
     font-size: 30px;
@@ -14,5 +14,18 @@
     display: flex;
     margin: 10px;
     gap: 10px;
+    justify-content: space-between;
+}
+
+.FoundersSpecialText
+{
+    text-decoration: dotted;
+    font-size: 20px;
+}
+
+.FoundersCollectionCards
+{
+    margin: 10px;
+    display: flex;
     justify-content: space-between;
 }
