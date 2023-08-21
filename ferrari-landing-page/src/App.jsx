@@ -15,6 +15,11 @@ const router = createBrowserRouter([
   },
 
   {
+    path: "/Supercar-Landing-Page",
+    element: <Home />,
+  },
+
+  {
     path: "about",
     element: <About />,
   },
