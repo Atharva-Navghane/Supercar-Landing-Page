@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Supercar-Landing-Page/static/css/main.1f0df38f.css",
+    "main.js": "/Supercar-Landing-Page/static/js/main.7382e54d.js",
+    "index.html": "/Supercar-Landing-Page/index.html",
+    "main.1f0df38f.css.map": "/Supercar-Landing-Page/static/css/main.1f0df38f.css.map",
+    "main.7382e54d.js.map": "/Supercar-Landing-Page/static/js/main.7382e54d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f0df38f.css",
+    "static/js/main.7382e54d.js"
+  ]
+}
