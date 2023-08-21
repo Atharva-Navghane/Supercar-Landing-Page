@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './NavbarCSS.css';
 
 function NavbarComp() {
@@ -6,9 +7,15 @@ function NavbarComp() {
     <div className="containerClass">
       <h1>Ferrari</h1>
       <div className="different-options">
+        <Link to = "/" className="linkreactrouterdom">
         <div className="home text">Home</div>
-        <div className="about-us text">About Us</div>
+        </Link>
+        <Link to = "/about" className="linkreactrouterdom">
+          <div className="about-us text">About Us</div>
+        </Link>
+        <Link to = "/ContactUs" className="linkreactrouterdom">
         <div className="contact-us text">Contact Us</div>
+        </Link>
         <div className="more-options">
           <div className="more-options-text">
             More Options
